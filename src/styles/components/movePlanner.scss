@@ -1,0 +1,27 @@
+.move-planner-container{
+    .calendar{
+        position: absolute;
+        top:12vh;
+        right:50vw;
+        max-width: fit-content;
+        z-index: 99999;
+        
+    }
+    .error{
+        font-size: 12px;
+        color: red;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .move-planner-container{
+        .calendar{
+            position: absolute;
+            top:12vh;
+            right:5vw;
+            max-width: fit-content;
+            z-index: 99999;
+            
+        }
+    }
+  }
